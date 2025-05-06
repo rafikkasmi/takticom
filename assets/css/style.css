@@ -1105,6 +1105,34 @@ body {
   gap: 15px;
 }
 
+/* Responsive gallery layouts */
+@media (max-width: 1200px) {
+  .gallery-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gallery-card {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .gallery-card {
+    height: 280px;
+  }
+}
+
 
 
 .gallery-extra-item:nth-child(n+5):nth-child(-n+7) {
