@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>TAKTICOM - Agence de Communication et de Publicité</title>
+  <meta name="title" content="TAKTICOM - Agence de Communication et de Publicité">
+  <meta name="description" content="TAKTICOM est une agence de communication et de publicité innovante, inspirée par le mot 'TIKTI' en Tifinagh, qui signifie 'L'idée'">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img class="logo-image" src="./assets/images/logo.png" alt="TAKTICOM logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#accueil" class="navbar-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="#apropos" class="navbar-link">À propos</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#galerie" class="navbar-link">Galerie</a>
+          </li>
+
+          <li>
+            <a href="#references" class="navbar-link">Références</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="accueil">
+        <div class="container">
+          <div class="carousel">
+            <div class="carousel-inner">
+              <!-- Slide 1: Bannière principale -->
+              <div class="carousel-item" style="background-image: url('/assets/images/slider/planning.jpg');">
+                <div class="hero-content">
+                  <h1 class="h1 hero-title">
+                    Transformez vos idées en réalité
+                    <!-- <span class="span">TAKTICOM, l'agence qui donne vie à vos projets</span> -->
+                  </h1>
+
+                  <p class="section-text">
+                    TAKTICOM est une agence de communication et de publicité innovante, inspirée par le mot 'TIKTI' en Tifinagh, qui signifie 'L'idée'. Nous mettons notre expertise en stratégie marketing, digital, événementiel, audiovisuel et print au service de vos projets.
+                  </p>
+
+                  <a href="#contact" class="btn">
+                    <span class="span">Nous contacter</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Slide 2: Digital -->
+              <div class="carousel-item" style="background-image: url('/assets/images/slider/social-media.jpg');">
+                <div class="hero-content">
+                  <h2 class="h1 hero-title">
+                    Boostez votre présence en ligne avec TAKTICOM
+                  </h2>
+
+                  <p class="section-text">
+                    Des sites web performants, des applications innovantes et une gestion optimale de vos réseaux sociaux pour atteindre vos objectifs.
+                  </p>
+
+                  <a href="#services" class="btn">
+                    <span class="span">Découvrez nos services digitaux</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Slide 3: Événementiel -->
+              <div class="carousel-item" style="background-image: url('/assets/images/slider/events.jpg');">
+                <div class="hero-content">
+                  <h2 class="h1 hero-title">
+                    Des événements qui marquent les esprits
+                  </h2>
+
+                  <p class="section-text">
+                    De la conception de stands au relooking de vos espaces, nous transformons vos idées en réalisations spectaculaires.
+                  </p>
+
+                  <a href="#services" class="btn">
+                    <span class="span">Voir nos projets événementiels</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Slide 4: Audiovisuel -->
+              <div class="carousel-item" style="background-image: url('/assets/images/slider/av.jpg');">
+                <div class="hero-content">
+                  <h2 class="h1 hero-title">
+                    Racontez votre histoire à travers l'image
+                  </h2>
+
+                  <p class="section-text">
+                    Spots publicitaires, vidéos d'entreprise et shootings photos – TAKTICOM capture l'essence de votre marque.
+                  </p>
+
+                  <a href="#services" class="btn">
+                    <span class="span">Explorez nos créations audiovisuelles</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <div class="carousel-controls">
+              <span class="carousel-indicator active" data-slide="0"></span>
+              <span class="carousel-indicator" data-slide="1"></span>
+              <span class="carousel-indicator" data-slide="2"></span>
+              <span class="carousel-indicator" data-slide="3"></span>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="carousel-nav carousel-prev">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <button class="carousel-nav carousel-next">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="apropos">
+        <div class="container">
+          <h2 class="h2 section-title">À propos de TAKTICOM</h2>
+          
+          <div class="about-content">
+            <p class="section-text">
+              TAKTICOM est bien plus qu'une simple agence de communication et de publicité. Inspirée par le mot "TIKTI" en Tifinagh, signifiant "L'idée", notre agence est née d'une passion pour la créativité.
+            </p>
+
+            <p class="section-text">
+              Notre mission est de transformer les idées en réalité, en apportant une vision fraîche et innovante à chaque projet que nous entreprenons.
+            </p>
+
+            <p class="section-text">
+              Avec une expérience solide de 15 ans dans les domaines du marketing et de l'événementiel, nos fondateurs ont collaboré avec diverses entreprises, tant nationales que multinationales.
+            </p>
+
+            <p class="section-text">
+              Nous avons relevé des défis ambitieux pour des organisations étatiques et privées, en apportant des solutions créatives et sur mesure.
+            </p>
+
+            <p class="section-text">
+              Chez TAKTICOM, nous croyons en la puissance des idées. Chaque projet reflète notre engagement envers l'excellence, l'innovation et la satisfaction client.
+            </p>
+
+            <p class="section-text">
+              Notre objectif est de devenir un partenaire clé pour nos clients en leur offrant des solutions personnalisées, parfaitement adaptées à leurs besoins et objectifs spécifiques.
+            </p>
+
+            <p class="section-text">
+              Nos valeurs fondamentales sont la créativité, l'excellence, l'innovation et l’originalité. Ces principes guident chaque aspect de notre travail, de la conception d’un projet à sa mise en œuvre, pour garantir des résultats qui dépassent les attentes.
+               Valeurs clés :
+              o Créativité, Originalité, Innovation.
+            </p>
+
+            <a href="#services" class="btn">
+              <span class="span">Découvrir nos services</span>
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <figure class="about-banner img-holder">
+            <div class="lightbulb-animation">
+              <div class="glow-container">
+                <div class="glow-effect"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="lightbulb">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7z" class="bulb"/>
+                  <path d="M11 20h2v1h-2z" class="base"/>
+                  <path d="M9 18h6v1H9z" class="base"/>
+                </svg>
+              </div>
+            </div>
+          </figure>
+
+         
+        </div>
+      </section>
+
+
+      <!-- Service Modals -->
+      <div class="modal-container" id="print-modal">
+        <div class="modal-content">
+          <button class="modal-close-btn">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <h3 class="h2 modal-title">Print</h3>
+          <div class="modal-body">
+            <p>
+              Chez TAKTICOM, nous savons que les supports imprimés sont essentiels pour établir une 
+              présence tangible et marquante. Nous offrons une gamme complète de solutions d'impression 
+              adaptées à vos besoins spécifiques. Que ce soit pour des supports publicitaires, signalétiques 
+              ou événementiels, nous maîtrisons les techniques les plus avancées, comme l'impression offset, 
+              numérique, UV, latex, sérigraphie ou flockage.
+            </p>
+            <p>
+              Nous travaillons sur différents types de supports : papier, autocollants, bâches, PVC, forex, One 
+              Way, sablé et carton. Que ce soit pour des affiches, des flyers, des brochures, des panneaux ou 
+              des enseignes, nous garantissons une qualité d'impression irréprochable et des finitions 
+              professionnelles pour maximiser l'impact de vos communications visuelles.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-container" id="digital-modal">
+        <div class="modal-content">
+          <button class="modal-close-btn">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <h3 class="h2 modal-title">Digital</h3>
+          <div class="modal-body">
+            <p>
+              Dans un monde en constante évolution, une présence digitale forte est incontournable. 
+              TAKTICOM vous accompagne dans la transformation digitale de votre entreprise. Nous créons 
+              des sites web modernes et performants, ainsi que des applications mobiles sur mesure pour 
+              Android et iOS. Ces solutions sont conçues pour offrir une expérience utilisateur intuitive et 
+              mémorable.
+            </p>
+            <p>
+              Nous assurons également la gestion complète de vos réseaux sociaux en élaborant des stratégies 
+              adaptées à votre audience. De la création de contenu engageant à l'analyse des performances, 
+              en passant par les campagnes sponsorisées ciblées, nous mettons en place des actions efficaces 
+              pour maximiser votre visibilité en ligne et générer un retour sur investissement optimal.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-container" id="event-modal">
+        <div class="modal-content">
+          <button class="modal-close-btn">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <h3 class="h2 modal-title">Événementiel</h3>
+          <div class="modal-body">
+            <p>
+              Les événements sont des moments privilégiés pour renforcer l'image de marque et créer des 
+              liens avec votre audience. TAKTICOM propose une prise en charge complète de vos projets 
+              événementiels. Nous organisons des événements sur mesure, adaptés à vos besoins, qu'il 
+              s'agisse de conférences, de salons, de lancements de produits ou d'autres occasions spéciales.
+            </p>
+            <p>
+              Notre expertise inclut également la conception et la réalisation de stands uniques qui reflètent 
+              parfaitement votre identité visuelle. Nous proposons des designs innovants et fonctionnels, 
+              pensés pour attirer l'attention et optimiser votre présence lors des événements.
+            </p>
+            <p>
+              Par ailleurs, nous aidons les entreprises à relooker leurs magasins et showrooms, en leur offrant 
+              des solutions créatives et modernes pour améliorer l'expérience client et renforcer leur image.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+          <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section collection text-center" aria-labelledby="portfolio-label">
+        <div class="container">
+            <h2 class="h2 section-title text-center" id="services-label">
+              Nos Services
+            </h2>
+            <p class="section-text text-center">
+              Découvrez notre gamme complète de services adaptés à vos besoins.
+            </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/services/print.jpg" width="500" height="550" loading="lazy"
+                    alt="Print Services" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Print</h3>
+
+                  <p class="card-text">
+                    Solutions d'impression de haute qualité sur divers supports pour tous vos besoins de communication visuelle.
+                  </p>
+
+                  <button class="btn modal-open-btn" data-modal="print-modal">
+                    <span class="span">En savoir plus</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/services/digital.jpg" width="500" height="550" loading="lazy"
+                    alt="Digital Services" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Digital</h3>
+
+                  <p class="card-text">
+                    Sites web, applications mobiles et gestion des réseaux sociaux pour une présence digitale forte et efficace.
+                  </p>
+
+                  <button class="btn modal-open-btn" data-modal="digital-modal">
+                    <span class="span">En savoir plus</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/services/event.jpg" width="500" height="550" loading="lazy"
+                    alt="Événementiel Services" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Événementiel</h3>
+
+                  <p class="card-text">
+                    Organisation d'événements, conception de stands et relooking de magasins pour une expérience mémorable.
+                  </p>
+
+                  <button class="btn modal-open-btn" data-modal="event-modal">
+                    <span class="span">En savoir plus</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      
+      <!-- No portfolio modals needed as we're using service modals instead -->
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="feature" aria-label="features">
+
+        <div class="feature-banner has-bg-image has-after"
+          style="background-image: url('./assets/images/services/audiovisual.jpg')">
+          <button class="play-btn" aria-label="play video: man making handmade belt">
+            <img src="./assets/images/play.svg" width="60" height="60" loading="lazy" alt="play icon">
+          </button>
+        </div>
+
+        <div class="section feature-content">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Audiovisuel
+            </h2>
+
+            <p class="section-text">
+              L’audiovisuel est un outil puissant pour raconter une histoire et marquer les esprits. Chez 
+              TAKTICOM, nous créons des vidéos professionnelles qui reflètent votre identité et captent 
+              l’attention de votre audience.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="videocam-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Vidéos d'entreprise, spots TV</h3>
+
+                    <p class="card-text">
+                      Des productions professionnelles pour valoriser votre marque et vos produits
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Réels & shorts pour les réseaux sociaux</h3>
+
+                    <p class="card-text">
+                      Des contenus courts et percutants pour maximiser votre visibilité en ligne
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="camera-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Shootings photo de haute qualité</h3>
+
+                    <p class="card-text">
+                      Des images professionnelles pour tous vos supports de communication
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <p>
+              Notre objectif est de capturer l'essence de votre marque à travers des images fortes et 
+              percutantes qui laissent une impression durable sur votre audience.
+            </p>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <!-- <section class="section testi" aria-label="testimonials">
+        <div class="container">
+
+          <div class="testi-card">
+
+            <p class="card-text">
+              Etiam ultricies eros ut malesuada condimentum. Cras in nisl sit amet dui molestie tristique ut vitae
+              libero nec laoreet purus.
+            </p>
+
+            <p class="client-name">Edward Fransisco</p>
+
+            <p class="client-title">Founder Crafti</p>
+
+            <img src="./assets/images/quote.svg" width="50" height="50" loading="lazy" class="icon" alt="quote">
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="galerie">
+        <div class="container gallery-text">
+          <h2 class="h2 section-title text-center">Galerie</h2>
+          <p class="section-text text-center">Découvrez notre portfolio de réalisations</p>
+        </div>
+
+        <ul class="gallery-list" id="gallery-main-list">
+
+          <li class="gallery-item" data-category="stands">
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery/stand.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Stands</h3>
+
+                <a href="#" class="btn-link gallery-expand-btn" data-category="stands">
+                  <span class="span">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="gallery-item" data-category="affichages">
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery/panneau.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Affichages publicitaires</h3>
+
+                <a href="#" class="btn-link gallery-expand-btn" data-category="affichages">
+                  <span class="span">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="gallery-item" data-category="campagnes">
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery/ads.jpeg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Campagnes digitales</h3>
+
+                <a href="#" class="btn-link gallery-expand-btn" data-category="campagnes">
+                  <span class="span">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="gallery-item" data-category="videos">
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery/video.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Vidéos créées</h3>
+
+                <a href="#" class="btn-link gallery-expand-btn" data-category="videos">
+                  <span class="span">Voir plus</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+        <!-- Extra cards for Stands category -->
+        <li class="gallery-extra-item" data-category="stands">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #f0e6d2;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Stand 1</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="stands">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #e6d2c3;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Stand 2</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="stands">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #d2c3b4;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Stand 3</h3>
+              <button class="gallery-back-btn btn-link">
+                <span class="span">Retour</span>
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+        
+        <!-- Extra cards for Affichages category -->
+        <li class="gallery-extra-item" data-category="affichages">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #e6d2c3;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Affichage 1</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="affichages">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #d2c3b4;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Affichage 2</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="affichages">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #c3b4a5;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Affichage 3</h3>
+              <button class="gallery-back-btn btn-link">
+                <span class="span">Retour</span>
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+        
+        <!-- Extra cards for Campagnes category -->
+        <li class="gallery-extra-item" data-category="campagnes">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #d2c3b4;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Campagne 1</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="campagnes">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #c3b4a5;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Campagne 2</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="campagnes">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #b4a596;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Campagne 3</h3>
+              <button class="gallery-back-btn btn-link">
+                <span class="span">Retour</span>
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+        
+        <!-- Extra cards for Videos category -->
+        <li class="gallery-extra-item" data-category="videos">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #c3b4a5;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Vidéo 1</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="videos">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #b4a596;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Vidéo 2</h3>
+            </div>
+          </div>
+        </li>
+        <li class="gallery-extra-item" data-category="videos">
+          <div class="gallery-card has-bg-image has-after" style="background-color: #a59687;">
+            <div class="card-content">
+              <h3 class="h3 card-title">Vidéo 3</h3>
+              <button class="gallery-back-btn btn-link">
+                <span class="span">Retour</span>
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+        
+        </ul>
+      </section>
+
+      <!-- 
+        - #REFERENCES
+      -->
+
+      <section class="section" aria-labelledby="references-label" id="references">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center" id="references-label">Nos Références</h2>
+
+          <p class="section-text text-center">
+            Logos des entreprises avec lesquelles nous avons déjà travaillé
+          </p>
+
+          <ul class="grid-list references-list">
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/1.jpg" alt="Client Logo 1" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/2.png" alt="Client Logo 2" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/3.jpg" alt="Client Logo 3" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/4.png" alt="Client Logo 4" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/5.png" alt="Client Logo 1" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/6.png" alt="Client Logo 2" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/7.jpeg" alt="Client Logo 3" class="reference-logo">
+              </div>
+            </li>
+
+            <li>
+              <div class="reference-card">
+                <img src="./assets/images/refs/8.jpeg" alt="Client Logo 4" class="reference-logo">
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section" aria-labelledby="contact-label" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center" id="contact-label">Contactez-nous</h2>
+
+          <div class="contact-content">
+
+            <address class="section-text text-center">
+              <p><strong>Adresse :</strong> Cité les Rosiers, Bâtiment E2, Mohammadia, Alger</p>
+              <p><strong>Email :</strong> contact@takticom.net</p>
+              <p><strong>Téléphone :</strong> +213 542 033 771</p>
+            </address>
+
+            <div class="contact-form-container">
+              <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Nom et Prénom</label>
+                  <input type="text" id="name" name="name" placeholder="Votre nom et prénom" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="phone">Téléphone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+                </div>
+                
+                <div class="form-group">
+                  <label for="subject">Sujet</label>
+                  <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">
+                  Envoyer
+                  <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img class="logo-image" src="./assets/images/logo.png" alt="TAKTICOM logo">
+          </a>
+
+          <p class="footer-text">
+            TAKTICOM est une agence de communication et de publicité innovante, inspirée par le mot 'TIKTI' en Tifinagh, qui signifie 'L'idée'.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <!-- <li>
+            <p class="footer-list-title">Explore Us</p>
+          </li> -->
+
+          <li>
+            <a href="#accueil" class="footer-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="#apropos" class="footer-link">À propos</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#galerie" class="footer-link">Galerie</a>
+          </li>
+
+          <li>
+            <a href="#references" class="footer-link">Références</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer-link">Contact</a>
+          </li>
+
+        </ul>
+<!-- 
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Feedback</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support Center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Stores</a>
+          </li>
+
+        </ul> -->
+
+        <div class="footer-list">
+
+          <!-- <p class="footer-list-title">Get in Touch</p> -->
+
+          <p class="footer-text">
+            Une question ou un commentaire ?
+            Nous aimerions avoir de vos nouvelles.
+          </p>
+
+          <a href="#contact" class="btn">
+            <span class="span">Contactez-nous</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2025 TAKTICOM. Tous droits réservés
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/carousel.js"></script>
+  <script src="./assets/js/modal.js"></script>
+  <script src="./assets/js/gallery.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <style>
+    .lightbulb-animation {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    
+    .glow-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      height: 80%;
+    }
+    
+    .glow-effect {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(255, 215, 0, 0.7) 0%, rgba(255, 215, 0, 0) 70%);
+      border-radius: 50%;
+      filter: blur(15px);
+      animation: pulse 2s infinite alternate;
+      z-index: 1;
+    }
+    
+    .lightbulb {
+      position: relative;
+      width: 100%;
+      height: auto;
+      z-index: 2;
+      filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.3));
+    }
+    
+    .bulb {
+      fill: #FFD700;
+      animation: glow 2s infinite alternate;
+    }
+    
+    .base {
+      fill: #555;
+    }
+    
+    @keyframes glow {
+      from {
+        fill: #FFD700;
+      }
+      to {
+        fill: #FFC107;
+      }
+    }
+    
+    @keyframes pulse {
+      from {
+        opacity: 0.5;
+        transform: scale(0.9);
+        filter: blur(15px);
+      }
+      to {
+        opacity: 0.8;
+        transform: scale(1.0);
+        filter: blur(20px);
+      }
+    }
+  </style>
+</body>
+
+</html>
